@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingViewController">
+            <connections>
+                <outlet property="backgroundImageView" destination="5C1-DF-yxM" id="ao0-UJ-CQf"/>
+                <outlet property="loadingActivityInidicatorView" destination="J0C-nJ-J4Z" id="pxh-1Z-Zrz"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading-screen-image.png" translatesAutoresizingMaskIntoConstraints="NO" id="5C1-DF-yxM">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="J0C-nJ-J4Z">
+                    <rect key="frame" x="150" y="380" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="J0C-nJ-J4Z" firstAttribute="centerX" secondItem="5C1-DF-yxM" secondAttribute="centerX" id="HJs-wa-CJd"/>
+                <constraint firstItem="5C1-DF-yxM" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="IJ8-D1-d1N"/>
+                <constraint firstItem="5C1-DF-yxM" firstAttribute="top" secondItem="1" secondAttribute="top" id="Qqc-Ro-DOM"/>
+                <constraint firstAttribute="bottom" secondItem="J0C-nJ-J4Z" secondAttribute="bottom" constant="168" id="Swe-SF-pvf"/>
+                <constraint firstAttribute="trailing" secondItem="5C1-DF-yxM" secondAttribute="trailing" id="fxH-Rt-wrd"/>
+                <constraint firstAttribute="bottom" secondItem="5C1-DF-yxM" secondAttribute="bottom" id="pdT-bh-2Hb"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loading-screen-image.png" width="640" height="1136"/>
+    </resources>
+</document>

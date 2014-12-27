@@ -1,0 +1,33 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AFHTTPRequestOperationManager.h"
+    #import "Flurry.h"
+    #import "AppSetting.h"
+    #import <QuartzCore/QuartzCore.h>
+    #include "RESideMenu.h"
+    #import "HelperClass.h"
+    #import "RTLabel.h"
+    #import "GTMNSString+HTML.h"
+    #import "DashboardViewController.h"
+    #import "DashboardViewControllerNoLoyalty.h"
+    #import "ProductDashboardViewControllerNoLoyalty.h"
+    #import "ProductDashboardViewController.h"
+    #import "FoodDashboardViewController.h"
+    #import "FoodDashboardViewControllerNoLoyalty.h"
+    #import "ServiceDashboardViewController.h"
+    #import "ServiceDashboardViewControllerNoLoyalty.h"
+    #import "UIViewController+DashboardSetup.h"
+#endif

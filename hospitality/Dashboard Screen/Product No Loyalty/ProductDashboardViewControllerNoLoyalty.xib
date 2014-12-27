@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductDashboardViewControllerNoLoyalty">
+            <connections>
+                <outlet property="loyaltyView" destination="NEM-YA-JKQ" id="Xd9-Y9-PtN"/>
+                <outlet property="navigationTitle" destination="aqG-S3-rxt" id="Rvu-4i-YaY"/>
+                <outlet property="sideMenuButton" destination="hXE-tX-AiC" id="GXz-q4-f24"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ezd-wB-agq">
+                    <rect key="frame" x="0.0" y="64" width="159" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-product.png"/>
+                    <state key="highlighted" image="dashboard-product-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton1:" destination="-1" eventType="touchUpInside" id="Lwo-QE-qib"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mfl-Rs-r8c">
+                    <rect key="frame" x="160" y="64" width="160" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-offers.png"/>
+                    <state key="highlighted" image="dashboard-offers-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton2:" destination="-1" eventType="touchUpInside" id="CBw-OF-oPA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="msm-1G-Djr">
+                    <rect key="frame" x="0.0" y="190" width="159" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-about-us.png"/>
+                    <state key="highlighted" image="dashboard-about-us-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton3:" destination="-1" eventType="touchUpInside" id="ZEh-rK-OnP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bDl-KH-rqe">
+                    <rect key="frame" x="160" y="190" width="160" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-contact-us.png"/>
+                    <state key="highlighted" image="dashboard-contact-us-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton4:" destination="-1" eventType="touchUpInside" id="kjZ-8T-Mb1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EXV-1l-c4U">
+                    <rect key="frame" x="0.0" y="316" width="159" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-news-feed.png"/>
+                    <state key="highlighted" image="dashboard-news-feed-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton5:" destination="-1" eventType="touchUpInside" id="jd2-9S-H7X"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qie-K4-Pz9">
+                    <rect key="frame" x="160" y="316" width="160" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-testimonial.png"/>
+                    <state key="highlighted" image="dashboard-testimonial-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton6:" destination="-1" eventType="touchUpInside" id="Q2P-AU-YsV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="21W-6c-OjG">
+                    <rect key="frame" x="0.0" y="442" width="159" height="126"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-events.png"/>
+                    <state key="highlighted" image="dashboard-events-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton7:" destination="-1" eventType="touchUpInside" id="PM0-n6-zIe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DuM-dW-ymY">
+                    <rect key="frame" x="160" y="442" width="160" height="126"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-gallery.png"/>
+                    <state key="highlighted" image="dashboard-gallery-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton8:" destination="-1" eventType="touchUpInside" id="0z3-LB-N8v"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="NEM-YA-JKQ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aqG-S3-rxt">
+                            <rect key="frame" x="49" y="27" width="223" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hXE-tX-AiC">
+                            <rect key="frame" x="219" y="28" width="100" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="61" minY="3" maxX="19" maxY="20"/>
+                            <state key="normal" image="navigation-menu-button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="presentRightMenuViewController:" destination="-1" eventType="touchUpInside" id="1IS-dx-Q1R"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.38039215686274508" green="0.74901960784313726" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dashboard-about-us-inverted.png" width="320" height="246"/>
+        <image name="dashboard-about-us.png" width="320" height="246"/>
+        <image name="dashboard-contact-us-inverted.png" width="320" height="246"/>
+        <image name="dashboard-contact-us.png" width="320" height="246"/>
+        <image name="dashboard-events-inverted.png" width="320" height="246"/>
+        <image name="dashboard-events.png" width="320" height="246"/>
+        <image name="dashboard-gallery-inverted.png" width="320" height="246"/>
+        <image name="dashboard-gallery.png" width="320" height="246"/>
+        <image name="dashboard-news-feed-inverted.png" width="320" height="246"/>
+        <image name="dashboard-news-feed.png" width="320" height="246"/>
+        <image name="dashboard-offers-inverted.png" width="320" height="246"/>
+        <image name="dashboard-offers.png" width="320" height="246"/>
+        <image name="dashboard-product-inverted.png" width="320" height="246"/>
+        <image name="dashboard-product.png" width="320" height="246"/>
+        <image name="dashboard-testimonial-inverted.png" width="320" height="246"/>
+        <image name="dashboard-testimonial.png" width="320" height="246"/>
+        <image name="navigation-menu-button.png" width="40" height="29"/>
+    </resources>
+</document>

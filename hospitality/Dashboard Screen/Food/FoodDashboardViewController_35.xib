@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FoodDashboardViewController">
+            <connections>
+                <outlet property="loyaltyView" destination="OKR-lV-t7c" id="lY3-XM-thf"/>
+                <outlet property="navigationTitle" destination="3RS-Nh-7HG" id="fNh-PG-6eD"/>
+                <outlet property="navigationView" destination="IsU-73-VDl" id="SA2-kl-BKb"/>
+                <outlet property="sideMenuButton" destination="8Z6-vP-RO5" id="Fda-cY-uQv"/>
+                <outlet property="stamp1" destination="JLI-ZH-zAD" id="4GJ-mt-joF"/>
+                <outlet property="stamp2" destination="dqt-wO-Vfq" id="55e-59-21Y"/>
+                <outlet property="stamp3" destination="51T-FB-bd7" id="JUy-Kb-Ia0"/>
+                <outlet property="stamp4" destination="mRn-Ng-vzY" id="fiX-eg-SCr"/>
+                <outlet property="stamp5" destination="czn-Th-LiU" id="nU2-Wk-iX5"/>
+                <outlet property="stampCountLabel" destination="yec-KD-Acw" id="kiH-zw-tLy"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EXV-1l-c4U">
+                    <rect key="frame" x="0.0" y="305" width="159" height="99"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-news-feed-35.png"/>
+                    <state key="highlighted" image="dashboard-news-feed-35-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton5:" destination="-1" eventType="touchUpInside" id="jd2-9S-H7X"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qie-K4-Pz9">
+                    <rect key="frame" x="160" y="305" width="160" height="99"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-contact-us-35.png"/>
+                    <state key="highlighted" image="dashboard-contact-us-35-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton6:" destination="-1" eventType="touchUpInside" id="Q2P-AU-YsV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bDl-KH-rqe">
+                    <rect key="frame" x="160" y="206" width="160" height="98"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-testimonial-35.png"/>
+                    <state key="highlighted" image="dashboard-testimonial-35-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton4:" destination="-1" eventType="touchUpInside" id="kjZ-8T-Mb1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="msm-1G-Djr">
+                    <rect key="frame" x="0.0" y="206" width="159" height="98"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-booking-35.png"/>
+                    <state key="highlighted" image="dashboard-booking-35-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton3:" destination="-1" eventType="touchUpInside" id="ZEh-rK-OnP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ezd-wB-agq">
+                    <rect key="frame" x="0.0" y="106" width="159" height="99"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-our-menu-35.png"/>
+                    <state key="highlighted" image="dashboard-our-menu-35-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton1:" destination="-1" eventType="touchUpInside" id="Lwo-QE-qib"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mfl-Rs-r8c">
+                    <rect key="frame" x="160" y="106" width="160" height="99"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="dashboard-offers-35.png"/>
+                    <state key="highlighted" image="dashboard-offers-35-inverted.png"/>
+                    <connections>
+                        <action selector="dashboardButton2:" destination="-1" eventType="touchUpInside" id="CBw-OF-oPA"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="IsU-73-VDl">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3RS-Nh-7HG">
+                            <rect key="frame" x="49" y="27" width="223" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Z6-vP-RO5">
+                            <rect key="frame" x="219" y="28" width="100" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="61" minY="3" maxX="19" maxY="20"/>
+                            <state key="normal" image="navigation-menu-button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="presentRightMenuViewController:" destination="-1" eventType="touchUpInside" id="gw5-KD-XQW"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dashboard-logo-35.png" id="MkE-xu-1uS">
+                            <rect key="frame" x="10" y="50" width="300" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.3803921569" green="0.74901960779999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                </view>
+                <view contentMode="scaleToFill" id="OKR-lV-t7c">
+                    <rect key="frame" x="0.0" y="405" width="320" height="75"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="yec-KD-Acw" customClass="FBShimmeringView">
+                            <rect key="frame" x="63" y="4" width="195" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dHH-9T-GUy">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="78"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="loyalty:" destination="-1" eventType="touchUpInside" id="B7r-ba-ogr"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loyalty-unchecked.png" id="JLI-ZH-zAD">
+                            <rect key="frame" x="30" y="28" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loyalty-unchecked.png" id="dqt-wO-Vfq">
+                            <rect key="frame" x="85" y="28" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loyalty-unchecked.png" id="51T-FB-bd7">
+                            <rect key="frame" x="140" y="28" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loyalty-unchecked.png" id="mRn-Ng-vzY">
+                            <rect key="frame" x="195" y="29" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loyalty-unchecked.png" id="czn-Th-LiU">
+                            <rect key="frame" x="250" y="28" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.3803921569" green="0.74901960779999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dashboard-booking-35-inverted.png" width="320" height="202"/>
+        <image name="dashboard-booking-35.png" width="320" height="202"/>
+        <image name="dashboard-contact-us-35-inverted.png" width="320" height="202"/>
+        <image name="dashboard-contact-us-35.png" width="320" height="202"/>
+        <image name="dashboard-logo-35.png" width="600" height="108"/>
+        <image name="dashboard-news-feed-35-inverted.png" width="320" height="202"/>
+        <image name="dashboard-news-feed-35.png" width="320" height="202"/>
+        <image name="dashboard-offers-35-inverted.png" width="320" height="202"/>
+        <image name="dashboard-offers-35.png" width="320" height="202"/>
+        <image name="dashboard-our-menu-35-inverted.png" width="320" height="202"/>
+        <image name="dashboard-our-menu-35.png" width="320" height="202"/>
+        <image name="dashboard-testimonial-35-inverted.png" width="320" height="202"/>
+        <image name="dashboard-testimonial-35.png" width="320" height="202"/>
+        <image name="loyalty-unchecked.png" width="91" height="90"/>
+        <image name="navigation-menu-button.png" width="40" height="29"/>
+    </resources>
+</document>
